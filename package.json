@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "Lets code to become better developer",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chanakya-Srinivas/react-plyastation.git"
+  },
+  "keywords": [
+    "react",
+    "digdeep",
+    "dirty"
+  ],
+  "author": "Chanakya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chanakya-Srinivas/react-plyastation/issues"
+  },
+  "homepage": "https://github.com/Chanakya-Srinivas/react-plyastation#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserlist": [
+    "last 2 versions"
+  ]
+}
