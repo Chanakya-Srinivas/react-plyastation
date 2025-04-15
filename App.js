@@ -15,6 +15,10 @@ const heading = React.createElement(
   "Hello from React!"
 );
 
+const JSXHeading = <h1 id="headd"> This is JSX hading</h1>;
+
+console.log(JSXHeading);
+
 // const heading2 = React.createElement("h2",{id:"heading"}, "Hello from React2!");
 
 const child = React.createElement("div", { id: "child", key: "1" }, heading);
