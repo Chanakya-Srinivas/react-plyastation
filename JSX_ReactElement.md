@@ -10,6 +10,8 @@ let’s look at **how to write the exact same things using JSX** — the more co
 
 ```jsx
 const heading = <h1>Hello React!</h1>;
+
+const divtab = <div>{heading}</div>;
 ```
 
 ---

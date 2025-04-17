@@ -2,10 +2,13 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 export default function Profile() {
-  return React.createElement(
-    "h1",
-    { id: "heading2", key: "2" },
-    "Hello from Texas!"
+  return (
+    <div>
+      {heading}
+      {console.log("Hi this is clog")}
+      <h1>{100 * 200}</h1>
+      <p>This is a component rendering an element.</p>
+    </div>
   );
 }
 
